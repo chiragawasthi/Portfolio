@@ -1,272 +1,349 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head> 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-        <link rel="stylesheet" href="styles.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-   
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Chirag Awasthi</a>
-                </div>
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Chirag Awasthi</a>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Chirag</span><br> Web Designer</h1>
-                    <p class="home__paragraph">This is my third year project <br>which i have created and<br> in this <b>Archita Rai</b> helped me a lot.</p><br>
-                    <!-- <a href="https://www.facebook.com/chirag.awasthi.31/" class="button">Contact</a> -->
-                    <a href="#contact" class="button" >Contact</a>
-                </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-                <div class="home__social">
-                    <a href="www.linkedin.com/in/chirag-awasthi" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.facebook.com/chirag.awasthi.31/" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://github.com/chiragawasthi" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                </div>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I am <span class="home__title-color">Chirag</span><br />
+            Frontend Developer
+          </h1>
+          <p class="home__paragraph">
+            Passionate frontend developer with expertise<br />
+            in building responsive, scalable web applications<br />
+            using <b>React</b>, <b>Redux</b>, and <b>modern JavaScript</b>.
+          </p>
+          <br />
+          <!-- <a href="https://www.facebook.com/chirag.awasthi.31/" class="button">Contact</a> -->
+          <a href="#contact" class="button">Contact</a>
+        </div>
 
-                <div class="home__img">    
-                    <img src="perfil.png" alt="">
-                </div>
-                
-               
+        <div class="home__social">
+          <a
+            href="www.linkedin.com/in/chirag-awasthi"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/chirag.awasthi.31/"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://github.com/chiragawasthi"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
 
-            </section>
+        <div class="home__img">
+          <img src="perfil.png" alt="" />
+        </div>
+      </section>
 
+      <!-- chatbot -->
 
-
-            <!-- chatbot -->
-
-           <section>
-            <div class="chatbot"  style="align-self: center; padding-left: 37%; ">
-               
-           <iframe 
-           allow="microphone;"
+      <section>
+        <div class="chatbot" style="align-self: center; padding-left: 37%">
+          <iframe
+            allow="microphone;"
             width="350"
-          height="430"
-          src="https://console.dialogflow.com/api-client/demo/embedded/ca14e03f-f646-4692-a2b3-f4ca9e4c305f">
-         </iframe>
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/ca14e03f-f646-4692-a2b3-f4ca9e4c305f"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="about.jpg" alt="" />
           </div>
-           </section>
 
+          <div class="skills">
+            <h2 class="about__subtitle">I am Chirag Awasthi</h2>
+            <p class="about__text">
+              A developer who knows HTML, CSS, JAVASCRIPT and React. Proficient
+              in creating intuitive user interfaces, optimizing performance, and
+              collaborating with cross-functional teams to deliver seamless user
+              experiences.<br />And also as i am a fast learner and capable to
+              solve the complex problems.
+              <br />
+              <b>HOBBIES</b><br />
+              <li class="hobbies" style="background: rgb(0, 217, 255)">
+                Web Designing
+              </li>
+              <br />
+              <li class="hobbies" style="background: rgb(255, 208, 0)">
+                Graphic Desining
+              </li>
+              <br />
+              <li class="hobbies" style="background: rgb(255, 0, 242)">
+                Singing
+              </li>
+              <br />
+            </p>
 
+            <button onclick="window.open('resume.pdf')" class="resume fadeIn">
+              Download Resume<i class="fa fa-download" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </section>
 
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              I know React, Redux, JavaScript, TypeScript, Unit Testing (Jest),
+              CSS, HTML, Git, C++, MUI. I was learning C and C++ from my 11
+              standard and used to build my problem solving skills.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">50%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-react skills__icon"></i>
+                <span class="skills__name">React</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+          </div>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+          <div>
+            <img src="work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="about.jpg" alt="">
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work <br /></h2>
+        <p class="work_paragraph">Currently I have work on 2 client projects and 1 In-house pronject for Capgemini.</p>
+
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <img src="work1.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="work2.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="work3.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="work4.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="work5.jpg" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="work6.jpg" alt="" />
+          </div>
+          <p>* These sections are not working</p>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+
+      <div class="container register" id="contact">
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              class="tab-pane fade show active text-align form-new"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <h1 class="register-heading">Contact</h1>
+              <div class="row register-form">
+                <div class="col-md-12">
+                  <form method="post" autocomplete="off" name="google-sheet">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="Name"
+                        class="form-control"
+                        placeholder="Your Name *"
+                        value=""
+                        required=""
+                      />
                     </div>
-                    
-                    <div class="skills">
-                        <h2 class="about__subtitle">I am Chirag Awasthi</h2>
-                        <p class="about__text">A webdeveloper who knows HTML, CSS, JAVASCRIPT and PHP. And I am working to become a Full Stack webdeveloper. who can develop the best websites and solve the problems of society.<br>And also as i am a fast learner and I think I am capable to solve the complex problems.
-                        <br>
-                        <b>HOBBIES</b><BR>
-                        <li class="hobbies" style="background:rgb(0, 217, 255) ;">Graphic Designing</li><br>
-                        <li class="hobbies" style="background:rgb(255, 208, 0) ;">Photo Editing</li><br>
-                        <li class="hobbies" style="background:rgb(255, 0, 242) ;">Singing</li><br>
-                        </p>           
-                        
-                        <button onclick="window.open('resume.pdf')" class="resume fadeIn">Download Resume<i class="fa fa-download" aria-hidden="true"></i></button>
-
-                    </div>                                   
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="Email"
+                        class="form-control"
+                        placeholder="Your Email *"
+                        value=""
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="number"
+                        name="Phone"
+                        class="form-control"
+                        placeholder="Your Contact Number *"
+                        value=""
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="submit"
+                        name="submit"
+                        class="btnSubmit btn-block"
+                        value="submit"
+                      />
+                    </div>
+                  </form>
                 </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">I know languages like C, C++, HTML, CSS, JAVASCRIPT, PHP. I was learning C and C++ from my 11 standard but I have not made many projects on it.<br> So I have not mentioned my C and C++ knowledge in the graph.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">50%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">php</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">40%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work <br> </h2>
-                <p class="work_paragraph">Currently I have no work to showcase</p>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            
-            
-        
-
-
-
-            <div class="container register" id="contact">
-                <div class="row">
-                    <div class="col-md-12">
-                            <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h1 class="register-heading">Contact</h1>
-                                <div class="row register-form">
-                                    <div class="col-md-12">
-                                        <form method="post" autocomplete="off" name="google-sheet">
-                                            <div class="form-group">
-                                                <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="number" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="submit" name="submit" class="btnSubmit btn-block" value="submit" />
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div> 
-              
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Chirag</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/chirag.awasthi.31/" class="footer__icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/awasthi.chirag/" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/ChiragAwasthi4?s=09" class="footer__icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p>&#169; 2020 copyright all right reserved</p>
-        </footer>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Chirag</p>
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/chirag.awasthi.31/"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/awasthi.chirag/"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://twitter.com/ChiragAwasthi4?s=09"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
 
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzOSjJ_ckZwuvkkq8HcuQcuvF-1PxGzCERar7fH3335gqwmsDE/exec";
+      const form = document.forms["google-sheet"];
 
-        <!--===== MAIN JS =====-->
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzOSjJ_ckZwuvkkq8HcuQcuvF-1PxGzCERar7fH3335gqwmsDE/exec'
-            const form = document.forms['google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-                .catch(error => console.error('Error!', error.message))
-            })
-          </script>
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) =>
+            alert("Thanks for Contacting us..! We Will Contact You Soon...")
+          )
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-
-        <script src="main.js"></script>
-    </body>
+    <script src="main.js"></script>
+  </body>
 </html>
